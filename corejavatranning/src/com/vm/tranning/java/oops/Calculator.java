@@ -19,24 +19,8 @@ public class Calculator {
 	private void myltiply()
 	{
 		System.out.println(num1*num2);
-		if(quotient<=0||denominator<=0 ||numerator<=0)
-		{
-			System.out.println("Invalid");
-		}
-		else
-		{
-			if(numerator<denominator)
-			{
-				System.out.println("Invalid");
-			}
-			else
-			{
-				System.out.println((quotient*denominator)+numerator);
-				System.out.println(denominator);
-			}
-			}
-				
-			}
+		
+			
 		}
 		
 }
